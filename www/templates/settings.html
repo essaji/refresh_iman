@@ -1,0 +1,76 @@
+<ion-view view-title="Settings">
+    <ion-content>
+        <div class="card">
+            <div class="item item-divider">
+                Change Color
+            </div>
+            
+            <ion-radio ng-repeat="color in colors" ng-click="changeColor(color.type)"  ng-value="color.type" ng-model="currentColor">
+                {{color.name}}
+            </ion-radio>
+            
+            <!--<label class="item item-radio ion-icon-right" ng-click="changeColor('positive')">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    Blue
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            
+            <label class="item item-radio">
+                <input type="radio" name="group" ng-click="changeColor('dark')">
+                <div class="item-content item-icon-right">
+                    Dark
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            
+            <label class="item item-radio">
+                <input type="radio" name="group" ng-click="changeColor('stable')">
+                <div class="item-content item-icon-right">
+                    White
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            
+            <label class="item item-radio">
+                <input type="radio" name="group" ng-click="changeColor('energized')">
+                <div class="item-content item-icon-right">
+                    Yellow
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            
+            <label class="item item-radio">
+                <input type="radio" name="group" ng-click="changeColor('balanced')">
+                <div class="item-content item-icon-right">
+                    Green
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            
+            <label class="item item-radio">
+                <input type="radio" name="group" ng-click="changeColor('royal')">
+                <div class="item-content item-icon-right">
+                    Purple
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            
+            <label class="item item-radio">
+                <input type="radio" name="group" ng-click="changeColor('assertive')">
+                <div class="item-content item-icon-right">
+                    Red
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            <label class="item item-radio">
+                <input type="radio" name="group" ng-click="changeColor('calm')">
+                <div class="item-content item-icon-right">
+                    Calm
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>-->
+        </div>
+    </ion-content>
+</ion-view>

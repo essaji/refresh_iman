@@ -1,0 +1,12 @@
+<ion-view view-title="Refresh Iman">
+<ion-content class="has-tabs">
+    <div class="list">
+        <a href="#tab/hadith/{{$index}}" class="item item-text-wrap item-icon-right" ng-repeat="entry in entries"><i class="icon ion-ios-arrow-right placeholder-icon"></i>
+            {{entry.title.$t}}
+        </a>
+    </div>
+    <ion-infinite-scroll on-infinite="loadMore()" distance="1%" ng-if="moreDataCanBeLoaded()">
+        
+    </ion-infinite-scroll>
+</ion-content>
+</ion-view>

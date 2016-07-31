@@ -1,0 +1,18 @@
+<ion-view view-title="Refresh Your Imaan">
+<ion-content class="padding">
+    
+    <div class="list list-inset item-text-wrap">
+        <div class="item item-divider">
+            <center>{{getTitle()}}</center>
+        </div>
+        <div class="item" ng-bind-html="getHadith()|renderHtml"></div>
+    </div>
+    
+    
+   <!-- <div class="bar">
+        <h2 class="title">{{getTitle()}}</h2>
+    <div class="content has-header" ng-bind-html="getHadith()|renderHtml">
+    </div>
+    </div>-->
+</ion-content>
+</ion-view>

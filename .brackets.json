@@ -1,0 +1,24 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/ionic/myfirst/myApp/platforms/android/platform_www/cordova-js-src/exec.js",
+        "C:/ionic/myfirst/myApp/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.min.js",
+        "C:/ionic/myfirst/myApp/platforms/android/platform_www/cordova-js-src/plugin/android/app.js",
+        "C:/ionic/myfirst/myApp/platforms/android/platform_www/cordova-js-src/platform.js",
+        "C:/ionic/myfirst/myApp/platforms/android/platform_www/cordova.js",
+        "C:/ionic/myfirst/myApp/plugins/com.cordova.plugins.sms/www/sms.js",
+        "C:/ionic/myfirst/myApp/plugins/com.ionic.keyboard/src/blackberry10/index.js",
+        "C:/ionic/myfirst/myApp/plugins/com.ionic.keyboard/www/keyboard.js",
+        "C:/ionic/myfirst/myApp/plugins/cordova-plugin-whitelist/whitelist.js",
+        "C:/ionic/myfirst/myApp/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js",
+        "C:/ionic/myfirst/myApp/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular/angular-animate.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular/angular-animate.min.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular/angular-resource.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular/angular-resource.min.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular/angular-sanitize.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular/angular-sanitize.min.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular/angular.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular/angular.min.js",
+        "C:/ionic/myfirst/myApp/www/lib/ionic/js/angular-ui/angular-ui-router.js"
+    ]
+}
